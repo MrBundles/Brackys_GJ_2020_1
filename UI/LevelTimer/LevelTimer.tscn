@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://UI/LevelTimer/LevelTimer.gd" type="Script" id=1]
+[ext_resource path="res://UI/LevelTimer/LevelTimer.png" type="Texture" id=2]
+
+[node name="LevelTimer" type="TextureProgress"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -64.0
+margin_right = 64.0
+margin_bottom = 128.0
+value = 50.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 2 )
+fill_mode = 4
+tint_progress = Color( 1, 0, 0, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+total_time = 10000
+save_count_per_sec = 1

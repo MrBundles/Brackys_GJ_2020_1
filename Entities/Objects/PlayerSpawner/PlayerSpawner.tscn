@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Entities/Objects/PlayerSpawner/PlayerSpawner.gd" type="Script" id=1]
+
+[node name="PlayerSpawner" type="Node2D"]
+position = Vector2( 512, 256 )
+script = ExtResource( 1 )
